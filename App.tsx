@@ -5,11 +5,11 @@ import { Page } from './types';
 import { SERVICES, COMPANY_INFO, Icons } from './constants';
 
 // Definição dos caminhos das imagens como strings
-// Certifique-se que a pasta 'assets' está na raiz do projeto
-const fachadaPrincipal = '/assets/fachada-principal.jpg';
-const recepcaoImg = '/assets/recepcao.jpg';
-const fachadaLateral = '/assets/fachada-lateral.jpg';
-const interiorImg = '/assets/interior.jpg';
+// Certifique-se que a pasta 'images' está na raiz do projeto
+const fachadaPrincipal = '/aimages/fachada-principal.jpg';
+const recepcaoImg = '/images/recepcao.jpg';
+const fachadaLateral = '/images/fachada-lateral.jpg';
+const interiorImg = '/images/interior.jpg';
 
 const App: React.FC = () => {
   const [currentPage, setCurrentPage] = useState<Page>(Page.HOME);
